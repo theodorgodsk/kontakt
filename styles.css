@@ -1,0 +1,2132 @@
+
+
+
+html, body { 
+	scroll-behavior: smooth;
+	width: 100%; 
+	height: 100%;
+    margin:0;
+    padding: 0;
+	
+
+}
+
+body { 
+background-image: url("images/BG.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 0px -20%;	
+
+
+
+}
+
+
+img{ 
+
+width: 100%;
+
+}
+
+
+
+
+
+.logo { 
+    width: 17vw;
+    margin-left: 6vw;
+    margin-top: 1.3vw;
+	transition: .5s ease;
+}
+
+.logo:hover { 	
+	filter: brightness(1.2);
+	width: 20vw;
+	margin-left: 18%;	
+}
+
+
+.header { 
+	display: grid;
+  	grid-template-columns: 25% 75%;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	transition: .5s ease;
+}
+
+
+.nav {
+    text-align: left;
+    margin-left: 13vw;
+    margin-top: 1vw;
+	transition: .5s ease;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+	transition: .5s ease;
+	
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    font-family: Roboto;
+  	color: #fff;
+  	font-size: 1vw;
+    margin-left: 10%;
+    line-height: 70px;
+	transition: .5s ease;	
+}
+
+label {
+   	margin: 0 5vw 0 0;
+    color: #fff;
+    font-size: 10vw;
+    line-height: 19vw;
+    display: none;
+    width: 10vw;
+    float: right;
+	transition: .5s ease;
+}
+
+#toggle {
+    display: none;
+	transition: .5s ease;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+	color: #1B8AED;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+.view_projects {
+	transition: .5s ease;
+    height: 10%;
+    margin-top: 40%;
+    text-align: center;
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+}
+
+h1 { 
+
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	font-size: 2vw;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+
+.intro { 
+	background-image: url(images/forside_baggrund.png);
+	background-size: cover;
+	background-position: fixed;	
+	height: 70vw;
+}
+
+
+.movieintro {
+	background-image: url("images/filmbg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47vw;
+	
+}
+
+.photointro {
+	background-image: url("images/fotografering.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47vw;
+	
+}
+
+.projectintro {
+	background-image: url("images/projekter.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47vw;
+}
+
+.footer {
+	height: 17vw;
+	background-image: url("images/footerbg.png");
+    background-size: cover;
+    margin-top: 10%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    text-align: center;
+
+}
+
+.overskrift {
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 6%;
+    width: 70%;
+    font-family: Roboto;
+    color: #fff;
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 105%;
+    text-align: left;
+	
+
+}
+
+
+.projekter {
+	position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 45%;
+    margin-top: 35%;
+}
+
+.statements {
+	height: 60%;
+    margin-top: 10%;
+    position: absolute;
+}
+
+
+.tilbud_kontaktside {
+    height: 70%;
+
+}
+
+
+.tilbud {
+    height: 70%;
+	
+}
+
+
+.boxes {
+    width: 72%;
+    margin: auto;
+    margin-left: 10vw;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 11%;
+    margin-top: 11%;
+
+}
+
+.box1 {
+	
+	margin-top: 25%;
+    width: 100%;
+    height: 58%;
+    background: white;
+	background-image: url(images/1.png);
+	background-size: cover;
+	-webkit-box-shadow: 0px 4px 23px 1px rgba(0,0,0,0.52);
+	-moz-box-shadow: 0px 4px 23px 1px rgba(0,0,0,0.52);
+	box-shadow: 0px 4px 23px 1px rgba(0,0,0,0.52);
+	transition: .5s ease;   
+}
+
+
+.box1:hover{
+	
+	background-color: black;
+	background-image: url(images/1hover.png);
+	background-size: cover;
+}
+
+
+.box2 {
+	margin-top: 13%;
+	height: 0%;
+    width: 100%;
+    padding-bottom: 100%;
+    background: white;
+	background-image: url(images/2.png);
+	background-size: cover;
+	-webkit-box-shadow: 0px 4px 23px 1px rgba(0,0,0,0.52);
+	-moz-box-shadow: 0px 4px 23px 1px rgba(0,0,0,0.52);
+	box-shadow: 0px 4px 23px 1px rgba(0,0,0,0.52);
+	transition: .5s ease;  
+}
+
+
+.box2:hover{
+	
+	background-color: black;
+	background-image: url("images/2hover.png");
+	background-size: cover;
+	
+	
+}
+
+.box3 {
+	height: 0%;
+    width: 100%;
+    padding-bottom: 100%;
+    background: white;
+	background-image: url("images/3.jpg");
+	background-size: cover;
+	-webkit-box-shadow: 0px 4px 23px 1px rgba(0,0,0,0.52);
+	-moz-box-shadow: 0px 4px 23px 1px rgba(0,0,0,0.52);
+	box-shadow: 0px 4px 23px 1px rgba(0,0,0,0.52);
+	transition: .5s ease;
+
+    
+}
+
+.box3:hover{
+	
+	background-color: #000;
+	background-image: url(images/3hover.jpg);
+	background-size: cover;
+}
+
+
+.nyt_perspektiv {
+    height: 6%;
+	text-align: center;
+}
+
+.play_buton {
+	width: 2%;
+	margin: auto;
+	transition: .5s ease;
+	
+}
+
+.play_buton:hover { 
+	width: 3%;
+}
+
+
+.look_here {
+	font-family: Roboto;
+	color: #fff;
+	font-size: 1.2vw;
+	font-weight: 300;
+	padding: 5px;
+	text-decoration: none;
+	transition: .5s ease;
+	
+}
+
+
+
+.look_here:hover { 
+
+	font-size: 1.4vw;
+	font-weight: 500;	
+
+}
+
+.look_here_mobile {
+	font-family: Roboto;
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 300;
+    margin-top: 0%;
+    padding: 5px;
+    text-decoration: none;
+    transition: .5s ease;
+	
+}
+
+
+
+.look_here_mobile:hover { 
+
+	font-size: 1.4vw;
+	font-weight: 500;	
+
+}
+
+
+.new_perspective {
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	font-size: 2vw;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.statement {
+	z-index: 1;
+	width: 100%;
+	height: 45%;
+    margin-top: -4%;
+}
+
+
+.all_statements {
+    width: 84%;
+    padding: 3vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 41% 30%;
+    grid-gap: 0%;
+    margin-top: 5%;
+}
+
+.all_statements_movie {
+    width: 60%;
+    margin: auto;
+    padding: 3vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5%;
+}
+
+.statement_1 {
+	margin: auto;
+    width: 75%;
+    padding-bottom: 30%;
+       
+}
+
+
+.statement_2 {
+	height: 0%;
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url(images/Inspire_2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+    
+}
+
+.statement_3 {
+	height: 0%;
+    width: 75%;
+    padding-bottom: 30%;
+
+    
+}
+
+
+.checkmark {
+	width: 12%;
+	margin: auto;
+	padding: 5%;
+}
+
+
+.book {
+	margin-top: 5%;
+	width: 12%;
+	margin: auto;
+	padding: 5%;
+}
+
+.p1 {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	font-family: 'Varela Round';
+	color: #fff;
+	font-size: 1.2vw;
+	font-weight: 400;
+	line-height: 1.4vw;
+}
+
+.p2 {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	font-family: 'Varela Round';
+	color: #fff;
+	font-size: 1.2vw;
+	font-weight: 400;
+	line-height: 1.4vw;
+}
+
+
+.s2 {
+	margin-top: 30%;
+}
+
+.s2_mobile { 
+
+	margin-top:30%;
+
+}
+
+#gallery {
+	margin: auto;
+	margin-top: 5%;
+	width: 75%;
+	height: 20%;
+}
+
+.uforpligtende {
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3.4vw;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.uforpligtende_kontaktside {
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3.4vw;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.uforpligtende2_kontaktside {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	line-height: 50%;
+	font-size: 4vw;
+	color:#fff;
+	text-transform: uppercase;
+}
+
+.uforpligtende2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	line-height: 50%;
+	font-size: 4vw;
+	color:#000;
+	text-transform: uppercase;
+}
+		
+.devider {
+	width:0.5%;
+	height: 7.5vw;
+	margin-left: -24%;
+	position:absolute;
+	
+}
+
+.input {
+	padding-top: 5%;
+	width: 45%;
+	margin:auto;
+	line-height: 1vw;
+	
+}
+
+.input-value {
+
+	width: 100%;
+	height: 1.5vw;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border-color: #404040;
+	border-style: solid;
+	border-width: 1px;
+	
+}
+
+.input-value-short {
+	width: 30%;
+	float: left;
+}
+
+.flexbox {
+	margin-top: 1%;
+	display: grid;
+    grid-template-columns: 16% 27% 2% 30%;
+    grid-gap: 5%;
+	float: left;
+	
+}
+
+
+.input-value-postnummer {
+	margin-top: 3%;
+	width: 100%;
+	float: left;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border-color: #404040;
+	border-style: solid;
+	border-width: 1px;
+	height: 1.5vw;
+}
+
+.input-value-by {
+	margin-top: 3%;
+	margin-bottom: 10%;
+	width: 100%;
+	float: left;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border-color: #404040;
+	border-style: solid;
+	border-width: 1px;;
+	height: 1.5vw;
+}
+
+
+::placeholder { 
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;	
+}
+
+.test {
+	width: 50%;
+	margin: auto;
+}
+
+.boxh1 {
+	text-align: left;
+	margin: auto;
+	height: 100%;
+	width: 75%;
+	white-space: normal;
+}
+
+
+
+.workareas {
+	margin-top: 20%;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.5vw;
+}
+
+.workabout {
+	margin-top: 10%;
+    font-size: 0.7vw;
+    line-height: 1.7;
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+}
+
+
+
+.tidligereprojekter {
+	text-align: center;
+}
+
+
+.readmore {
+
+	width: 1.5%;
+    margin-top: -0.2%;
+    margin-left: 1%;
+    position: absolute;
+    transition: .5s ease;
+}
+
+.readmore:hover { 
+
+	filter:brightness(1.5);
+
+}
+
+.link {
+	padding: 0;
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s ease;
+}
+
+.link:hover { 
+	padding: 0;
+	color: #1B8AED;
+	font-size: 0.8vw;	
+
+}
+
+
+.shadow {
+	-webkit-box-shadow: -1px 6px 48px -4px rgba(0,0,0,0.81);
+-moz-box-shadow: -1px 6px 48px -4px rgba(0,0,0,0.81);
+box-shadow: -1px 6px 48px -4px rgba(0,0,0,0.81);
+}
+
+.contact {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 27%;
+}
+
+#logo {
+	width: 70%;
+    margin-top: 0.5vw;
+    float: left;
+}
+
+.company_info {
+	float: left;
+    text-align: left;
+    margin-top: 5%;
+    line-height: 2vw;
+    font-family: Roboto;
+    font-weight: 300;
+    margin-left: -3vw;
+    font-size: 0.8vw;
+    color: #fff;
+}
+
+.contact-us {
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 1vw;
+	color: #fff;
+	float: left;
+	text-align: left;
+}
+
+.icons {
+	width: 5%;
+	padding-right: 5%;
+}
+
+#adress {
+	padding-left: 11%;
+    margin: 0;
+}
+
+ul { 
+
+list-style-type: none;
+
+}
+
+#follow_us {
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 1vw;
+	float: left;
+	color: #fff;
+	text-align: left;
+}
+
+.social {
+	width: 12%;
+	float: left;
+	margin-top: 1vw;
+	padding-right: 2.2vw;
+	transition: .5s ease;
+}
+
+.social:hover { 
+
+filter:brightness(1.5);
+
+
+}
+
+#copyright {
+	font-size: 0.6vw;
+	font-family: roboto;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+
+.contact_us {
+	width: 50%;
+	height: 70%;
+	margin: auto;
+	background-color: red;
+	margin-top: -40%;
+}
+
+.blackbox {
+	background-color: #000;
+	
+}
+
+.all_statements_project {
+	width: 55%;
+    margin: auto;
+    padding: 3vw;
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    grid-column-gap: 5%;
+    grid-row-gap: 1vw;
+    margin-top: 5%;
+}
+
+.p_projects {
+	width: 80%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Varela Round';
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: 1.4vw;
+}
+
+
+
+.video {
+	width: 100%;
+    height: 80%;
+    
+}
+
+.video-section {
+	
+	margin:auto;
+	
+}
+
+.video-projects {
+	width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+    height: 30vw;
+}
+
+.video-info {
+    width: 90%;
+	padding: 0% 5% 5% 5%;
+    text-align: left;
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+	line-height: 2.3vw;
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.video-logo {
+	    width: 35%;
+    margin-left: 30%;
+}
+
+#driveteam {
+	    width: 20%;
+    margin-left: 38%;
+}
+
+#video-project {
+	    height: 35vw;
+    margin-top: 9vw;
+}
+
+#baseerhverv {
+	         width: 30%;
+    margin-left: 36%;
+}
+
+.video-projects-mobile {
+	width: 100%;
+    display: block;
+    margin: auto;
+    height: 30vw;
+}
+
+.video-mobile {
+	width: 100%;
+    height: 160%;
+}
+
+.video-projects-mobile1 {
+	width: 100%;
+    display: block;
+    margin: auto;
+    height: 30vw;
+	margin-top: 75%;
+}
+
+.video-projects-mobile2 {
+	width: 100%;
+    display: block;
+    margin: auto;
+    height: 30vw;
+	margin-top: 90%;
+}
+
+#approved-pilots { 
+
+margin-top: -123vw;
+
+
+}
+
+
+
+.video-info-mobile {
+	width: 90%;
+    padding: 0% 5% 5% 5%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    line-height: 5.6vw;
+    font-size: 3.6vw;
+    font-weight: 100;
+}
+
+.view_projects-mobile {
+	transition: .5s ease;
+    height: 10%;
+    margin-top: 40%;
+    text-align: center;
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+}
+
+.statements_movie {
+	height: 60%;
+    margin-top: 10%;
+    position: absolute;
+}
+
+.statement_1_movie {
+	
+	margin: auto;
+    width: 75%;
+    padding-bottom: 30%;
+    
+    
+
+}
+
+.s1_mobile {
+
+
+margin-top:18%;
+
+
+}
+
+.statement_movie {
+	z-index: 1;
+	width: 100%;
+    margin-top: -4%;
+}
+
+
+
+.statements_project {
+	
+    margin-top: 10%;
+}
+
+.statement_second {
+	margin: auto;
+    width: 75%;
+    padding-bottom: 39%;
+    
+}
+
+.statement_project {
+	z-index: 1;
+	width: 100%;
+    margin-top: -4%;
+}
+
+
+
+.statement_2_project {
+
+}
+
+.statement_inside_project {
+	
+}
+
+.video-section-mobile {
+	display: none;
+}
+
+
+.arbejde_frontpage {
+	margin-top: 55%;
+}
+
+
+.arbejde_movie { 
+
+height: 90vw;
+margin-top: 10%;
+
+}
+
+.arbejde { 
+
+margin-top: 10%;
+
+
+}
+
+.arbejde_contactpage {
+	
+margin-top: vw;	
+	
+}
+
+.contactintro { 
+
+background-image: url("images/contactbg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47vw;
+
+
+}
+
+.aboutusintro { 
+
+background-image: url("images/DJI0001.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47vw;
+
+
+}
+
+#dplogo { 
+
+width: 20vw;
+margin-left: 9vw;	
+
+}
+
+#inspire { 
+	
+    width: 38vw;
+    margin-left: 2vw;
+}
+
+#equipment { 
+
+margin-left: -12vw;	
+	
+
+}
+
+#whoarewe { 
+margin-left: -29vw;
+
+}
+
+#dronepilot { 
+margin-left: -7vw;
+
+}
+
+#trafikstyrrelsen { 
+
+width: 26vw;
+padding: 4vw;
+margin-left: 2vw;
+
+
+}
+
+
+
+.tilbud1 {
+	text-align: center;
+	margin-top: 5vw;
+	
+}
+#mobileselect { 
+
+margin-bottom: 0vw;	
+
+}
+
+.input-navne {
+	
+	font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2vw;
+    color: #fff;
+    padding: 0vw 0px;
+}
+
+
+.input { 
+	
+	padding-top: 3%;
+    width: 37%;
+    margin: auto;
+    line-height: 1vw;
+		
+	}
+
+
+.uforpligtende_kontaktside { 
+	
+	font-size: 2.9vw;
+	
+	
+	}
+	
+	.uforpligtende2_kontaktside { 
+	
+	font-size: 3vw;
+    line-height: 0%;
+    font-weight: 400;
+    margin-left: -4.4vw;
+	
+	
+	}
+	
+	.devider { 
+	
+	width: 0.5vw;
+    height: 7.5vw;
+    margin-left: -20%;
+	
+	}
+	
+.styled-select select {
+	
+    background: transparent;
+    position: absolute;
+    margin-left: 0vw;
+    margin-top: -3.5vw;
+    width: 20%;
+    font-weight: 300;
+    z-index: 5;
+    color: #fff;
+    padding: 5px;
+    font-size: 1.3vw;
+    line-height: 1;
+    height: 5vw;
+    border-style: none;
+    -webkit-appearance: none;
+   }
+	
+	
+	.styled-select {
+    width: 16vw;
+    margin-top: -5vw;
+    height: 8vw;
+    border-width: 1px;
+    border-color: #fff;
+    border: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0.1vw solid #fff;
+  
+   
+   }
+	
+	.dropdownicon { 
+	margin-top: 5.9vw;
+    width: 13%;
+    height: 24%;
+    z-index: 10;
+    margin-left: 17vw;
+	
+	
+	}
+	
+	.input-value { 
+	background-color: transparent;
+    width: 100%;
+    height: 4.5vw;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+	border-bottom: 0.1vw solid #fff;
+		
+	}
+	
+	input[type=text] {
+ 	color: #fff;
+    height: 2.5vw;
+    padding: 0 0 0 0.1vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1vw;
+	
+	
+}
+	
+
+input[type=email] {
+ 	color: #fff;
+    height: 2.5vw;
+    padding: 0 0 0 0.1vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1vw;
+	
+	
+}
+
+	
+	#projektbeskrivelse { 
+	
+	background-color: #fff;
+	height: 15vw;
+	
+	
+	
+	}
+	
+	
+	#submitb { 
+	width: 10vw;
+    margin-top: 2vw;
+    height: 3vw;
+    margin-left: 14vw;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    background-color: #1B8AED;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+	
+	}
+	
+	.footer_mobile { 
+	display: none;	
+    background-image: url(images/footerbg.png);
+    background-size: cover;
+    margin-top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    text-align: center;
+
+} 
+
+.adress_mobile { 
+
+	color: #fff;
+    font-family: roboto;
+    font-weight: 200;
+    font-size: 3vw;
+    margin-left: -10vw;
+    margin-top: 0vw;	
+
+}
+
+
+.contact_info { 
+
+color: #fff;
+font-size: 3vw;
+font-family: roboto;
+font-weight: 200;
+
+}
+
+#footer-index { 
+
+margin-top: 6vw;
+
+
+}
+
+
+#company_info_cvr { 
+
+margin-left: 0vw;
+margin-top: 1.4vw;
+
+}
+
+#subhead { 
+
+font-size: 2vw;
+    margin: 0;
+
+}
+
+
+
+	/* ------ MEDIA QUERIES START ----  ------ MEDIA QUERIES START ----  ------ MEDIA QUERIES START ----  ------ MEDIA QUERIES START ---- */
+
+
+
+
+
+@media only screen and (min-width: 300px) { 
+
+
+
+
+	
+	
+@media only screen and (max-width: 800px) {
+  .tilbud {
+    margin-top: 5%;
+  }
+	
+	.all_statements_project { 
+	
+	width:65%;
+	grid-row-gap: 3vw;
+	
+	
+	}
+	
+	.p_projects { 
+	
+	line-height: 2vw;
+    font-size: 1.6vw;
+    width: 100%;
+	}
+	
+		
+	label {
+        display: block;
+		font-size: 9vw;
+   		line-height: 18vw;
+		width: 9vw;
+        cursor: pointer;
+		transition: .5s ease;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+		transition: .5s ease;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+		transition: .5s ease;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+		transition: .5s ease;
+    }
+	
+}	
+
+}
+
+@media only screen and (max-width: 450px) {
+  
+	/* start forside media q */
+	body { 
+	
+    background-image: url("images/bgmobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: 0px 115vw;
+	
+	
+	}
+	
+	#osmo { 
+	background-image: url("images/osmotg.jpg");
+    width: 100%;
+    margin-top: -2vw;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	}
+	
+	#inspire-img { 
+	
+	background-image: url("images/inspire.jpeg");
+    width: 100%;
+    margin-top: -2vw;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	
+	
+	}
+	
+	#subhead { 
+
+	font-size: 4vw;
+    margin: 0;
+
+}
+
+	.header { 
+	
+	grid-template-columns: 50% 50%;
+	transition: .5s ease;
+	
+	}
+	
+	
+	.nav { 
+	
+	margin-left: -50vw;
+	margin-top: 0vw;
+	transition: .5s ease;
+	}
+	
+	
+	label {
+        display: block;
+        cursor: pointer;
+		transition: .5s ease;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+		background-color: rgba(0,0,0,0.75);
+		transition: .5s ease;
+		
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+		font-size: 4vw;
+		font-family: Roboto;
+		font-weight: 300;
+		transition: .5s ease;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+	
+	.arbejde_frontpage {
+	margin-top: 150%;
+	height: 218vw;
+}
+	
+	.video { 
+	
+	width: 65%;
+    height: 80%;
+    margin: auto;
+	
+	
+	}
+	
+	.video-section {
+	
+	
+	display: none;
+}
+	
+	.tilbud { 
+	
+	margin-top: 60%;
+	
+	}
+	
+	
+	.video-projects {
+    width: 85%;
+	display: block;
+    margin: auto;
+    height: 30vw;
+		
+}
+	
+	
+	.statement { 
+	margin: auto;
+	z-index: 1;
+    width: 100%;
+    height: 55%;
+    margin-top: 0%;
+	
+	}
+	
+	.p1 { 
+	
+    font-size: 3vw;
+    line-height: 4.4vw;
+	
+	}
+	
+	.p2 { 
+	font-size: 3vw;
+    line-height: 4.4vw;
+	
+	}
+	
+	.s2 { 
+	
+	margin-top: 5%;
+	
+	}
+	
+	.all_statements {
+    width: 84%;
+    padding: 3vw;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+}
+	
+	
+	.statements { 
+	height: 30%;
+    margin-top: -8%;
+	
+	}
+	
+	.statement_1 { 
+	
+	padding-bottom: 5%;
+	
+	}
+	
+	
+	.statement_2 { 
+	
+	display: none;	
+	
+	
+	}
+	
+	.statement_3 { 
+	
+	 margin: auto;
+	}
+	
+	.projekter { 
+	
+	display: none;
+	
+	}
+	
+	.intro {
+    background-image: url(images/forside_baggrund.png);
+    background-size: cover;
+    height: 145vw;
+    background-position: -143%;
+}
+	
+	.contactintro { 
+	
+	height: 118vw;
+	
+	
+	}
+	
+	.aboutusintro { 
+	
+	height: 118vw;
+	
+	
+	}
+	
+	.overskrift { 
+	
+	font-size: 7vw;
+    line-height: 10vw;
+    margin-top: 44vw;
+	
+	}
+	
+	.logo { 
+	
+	width: 85%;
+    margin-left: 15%;
+    padding-top: 5.6vw;
+	
+	
+	}
+	
+	.black {
+		
+	 grid-template-columns: 33% 65%;	
+		
+		
+	}
+	
+	.look_here { 
+	
+	margin:0;
+	font-size:4.5vw;
+	
+	
+	}
+	
+	.play_buton { 
+	
+	width: 6%;
+	
+	
+	}
+	
+	.view_projects { 
+	
+	margin-top: 100%;
+		
+	}
+	
+	.black ul { 
+	
+	 font-size: 2.3vw;
+	margin-left: 4vw;
+	
+	}
+	
+	.black ul li { 
+	
+	padding-right: 3.5vw;	
+	
+	}
+	
+	.footer { 
+	
+	display: none;
+	
+	}
+	
+	
+
+
+	
+	.input-navne { 
+	font-size: 3vw;
+    color: #fff;
+    margin-bottom: 3vw;
+    margin-top: 10vw;
+	
+	}
+	
+	.new_perspective {
+    
+    font-size: 5vw; 
+		
+	}
+	
+	
+	.input { 
+	
+	width: 80%;
+	padding-top: 1vw;
+    margin: auto;
+    line-height: 0vw;
+		
+	}
+	
+	.contact { 
+	
+	width: 100%;
+    height: 29vw;
+    margin: auto;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+	
+	}
+	
+	#logo { 
+	
+	width: 70%;
+    margin-left: -1vw;
+    float: left;
+	
+	}
+	
+	.company_info { 
+	
+	float: left;
+    text-align: left;
+    margin-left: -12vw;
+    margin-top: 5%;
+    line-height: 5vw;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 2.5vw;
+    color: #fff;
+		
+		
+	}
+	
+	.contact_us { 
+	
+	font-family: Roboto;
+    font-weight: 900;
+    font-size: 2.4vw;
+    float: left;
+	color: #fff;
+    text-align: left;
+    margin: 0;
+	
+	}
+	
+	#follow_us  {
+		
+	font-family: Roboto;
+    font-weight: 300;
+    font-size: 2.4vw;
+    float: left;
+    text-align: left;
+    margin: 0;	
+		
+	}
+	
+	.social { 
+	
+	width: 20%;
+    float: left;
+    margin-top: 4vw;
+    padding-right: 2.4vw;
+    transition: .5s ease;
+	}
+	
+	
+	#copyright {
+	margin-top: -4vw;
+	font-size: 1.6vw;
+	font-family: roboto;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+	
+	
+	.footer-grid { 
+	
+	display: grid;
+    margin-top: -6vw;
+    height: 20vw;
+    grid-template-columns: 50% 50%;
+	}
+	
+		
+	.footer_mobile { 
+	display: block;
+    background-image: url(images/footerbg_mobile.png);
+    background-size: cover;
+    margin-top: 150vw;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+
+} 
+	
+	.contact_icons { 
+	
+ 	margin-top: 3vw;
+	width: 8vw;
+	
+	}
+	
+	
+	#contact_alone { 
+	
+	font-size: 3.5vw;
+    color: #fff;
+    margin-top: 15vw;
+    font-family: roboto;
+    font-weight: 200;
+	text-transform: uppercase;
+	
+	
+	
+	}
+	
+	
+	hr { 
+	
+	margin-top: -1vw;
+    border: none;
+    margin-left: 44vw;
+    position: absolute;
+    border-left: 0.4vw solid #1B8AED;
+    height: 18vw;
+	
+	
+	}
+	
+	/* End forside media q */
+	
+	/* Begin film side media q */
+	
+	
+	.arbejde_movie { 
+
+	height: 125%;
+	margin-top: 10%;
+
+}
+	.video-section-mobile {
+	display: block;
+}
+	
+	.movieintro { 
+	
+	height: 120vw;
+	
+	}
+	
+	
+	
+	
+	.look_here_mobile {
+	
+    font-size: 3.2vw;
+    margin-top: 60%;
+ 
+	
+}
+	
+	
+	.statement_movie {
+	z-index: 1;
+	width: 100%;
+    margin-top: -4%;
+}
+	
+	
+.all_statements_movie {
+       width: 100%;
+   	padding: 0;
+}
+	
+	/* End film side media q */
+	
+	/* Begin photo side media q */
+	
+	.photointro { 
+	
+	height: 120vw;
+	
+	}
+	
+	/* End photo side media q */
+	
+	/* Begin projekter side media q */
+	
+	
+	.projectintro { 
+	
+	height: 120vw;
+	
+	
+	}
+	
+	.statement_second { 
+	
+	padding-bottom: 21%;
+	
+	
+	}
+	
+	.all_statements_project {
+		
+	width: 90%;
+    margin: auto;
+    padding: 3vw;
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    grid-column-gap: 5%;
+    grid-row-gap: 10vw;
+    margin-top: 5%;
+}
+	
+	.p_projects { 
+	
+	line-height: 3.6vw;
+    font-size: 2.7vw;
+    width: 90%;
+	}
+	
+	
+	/* End projekter side media q */
+	
+	
+	/* Begin kontakt os side media q */
+	
+	#whoarewe { 
+	
+	margin: 0;
+	font-size: 4vw;
+	
+	}
+	
+	
+	#equipment { 
+	
+	margin-top: 115vw;
+	padding: 3vw;
+	margin-left: 0vw;
+	
+	}
+	
+	#inspire { 
+	
+	width: 100%;
+    margin-left: 0vw;
+	
+	}
+	
+	#dronepilot { 
+	
+	margin-top: 130vw;	
+	
+	}
+	
+	.tilbud_kontaktside { 
+	
+	margin-top: 5vw;
+	
+	}
+	
+	#trafikstyrrelsen { 
+	width: 45vw;
+    padding: 0vw;
+    margin-top: -3vw;
+    margin-left: 25vw;
+	
+	}
+	
+	.uforpligtende_kontaktside { 
+	
+	font-size: 5.9vw;
+	
+	
+	}
+	
+	.uforpligtende2_kontaktside { 
+	
+	font-size: 4.2vw;
+    line-height: 0%;
+    font-weight: 400;
+    margin-left: -29vw;
+	
+	
+	}
+	
+	.devider { 
+	
+	width: 0.8%;
+    height: 14.5vw;
+    margin-left: -41%;
+	
+	}
+	
+.styled-select select {
+    background: transparent;
+    position: absolute;
+    margin-left: -1vw;
+    margin-top: -7vw;
+    width: 42%;
+    z-index: 5;
+    color: #fff;
+    padding: 5px;
+    font-size: 3vw;
+    line-height: 1;
+    height: 34px;
+	border-style: none;
+    -webkit-appearance: none;
+   }
+	
+	
+	.styled-select {
+    width: 40vw;
+    height: 8vw;
+    border-width: 1px;
+    border-color: #fff;
+    border: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+	border-bottom: 0.1vw solid #fff;
+  
+   
+   }
+	
+	.dropdownicon { 
+	margin-top: 2vw;
+    width: 11%;
+    height: 58%;
+    margin-left: 35.4vw;
+	
+	
+	}
+	
+	.input-value { 
+	background-color: transparent;
+    width: 100%;
+    height: 4.5vw;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+	border-bottom: 0.1vw solid #fff;
+		
+	}
+	
+	input[type=text] {
+ 	color: #fff;
+	padding: 0 0 2vw 0.1vw;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 2.8vw;
+	
+	
+}
+	
+	input[type=email] {
+ 	color: #fff;
+    padding: 0 0 2vw 0.1vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2.8vw;
+	
+	
+}
+	
+	
+	#projektbeskrivelse { 
+	
+	background-color: #fff;
+	height: 25vw;
+	
+	
+	
+	}
+	
+	
+	#submitb { 
+	width: 25vw;
+    margin-top: 2vw;
+    height: 8vw;
+	margin-left: 26vw;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 4vw;
+    background-color: #1B8AED;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+	
+	}
+	
+	
+	
+	#mobileselect { 
+
+	margin-bottom: 9vw;	
+
+}
+	
+	#film-side { 
+	
+	margin-top: 150vw;
+	
+	
+	}
+	
+	#foto-side { 
+	
+	margin-top: 0vw;
+	
+	
+	}
+	
+	#projekter-side { 
+	
+	margin-top: 0vw;
+	
+	}
+	
+	#kontakt-side { 
+	
+	margin-top: 0vw;
+	
+	}
+	
+	#om-os-side { 
+	
+	margin-top: 225vw;
+	
+	}
+	
+	
+	.about-us-images { 
+	
+	height: 70vw;
+	
+	}
+	
+
+	
+	/* End kontakt os side media q */
+	
+	
+	a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+	
+}
+
+
+
+/* ------ MEDIA QUERIES END ----  ------ MEDIA QUERIES END ----  ------ MEDIA QUERIES END ----  ------ MEDIA QUERIES END ---- */
+
+
+
+
+
+
+
